@@ -1,0 +1,6 @@
+airetest
+pocoui
+pytest
+allure-pytest
+tidevice
+selenium
