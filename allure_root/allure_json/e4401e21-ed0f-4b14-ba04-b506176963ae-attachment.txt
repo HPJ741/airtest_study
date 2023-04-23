@@ -1,0 +1,13 @@
+2023-04-23 21:41:31 | INFO | conftest.py:10 | **************开始测试**************
+2023-04-23 21:41:32 | WARNING | helper.py:41 | Device:1268b147 updated <airtest.core.android.android.Android object at 0x000001542871A978> -> <airtest.core.android.android.Android object at 0x0000015469E0EBA8>
+2023-04-23 21:41:32 | INFO | test_search.py:19 | 异常处理线程正常运行中-------
+2023-04-23 21:41:37 | INFO | test_search.py:19 | 异常处理线程正常运行中-------
+2023-04-23 21:41:42 | INFO | test_search.py:19 | 异常处理线程正常运行中-------
+2023-04-23 21:41:49 | INFO | test_search.py:19 | 异常处理线程正常运行中-------
+2023-04-23 21:41:56 | ERROR | screen_proxy.py:56 | b''
+2023-04-23 21:41:56 | ERROR | screen_proxy.py:57 | b'PID: 14292\r\nINFO: Using projection 1080x2340@1080x2340/0\r\nINFO: (external/minicap/src/minicap_33.cpp:245) Creating SurfaceComposerClient\r\nINFO: (external/minicap/src/minicap_33.cpp:248) Performing SurfaceComposerClient init check\r\nINFO: (external/minicap/src/minicap_33.cpp:259) Creating virtual display\r\nINFO: (external/minicap/src/minicap_33.cpp:265) Creating buffer queue\r\nINFO: (external/minicap/src/minicap_33.cpp:268) Setting buffer options\r\nINFO: (external/minicap/src/minicap_33.cpp:272) Creating CPU consumer\r\nINFO: (external/minicap/src/minicap_33.cpp:276) Creating frame waiter\r\nINFO: (external/minicap/src/minicap_33.cpp:280) Publishing virtual display\r\nINFO: (jni/minicap/JpgEncoder.cpp:64) Allocating 7678980 bytes for JPG encoder\r\nERROR: (external/minicap/src/minicap_33.cpp:128: errno: None) Unable to lock next buffer BAD_VALUE (-22)\r\nERROR: (jni/minicap/minicap.cpp:442: errno: None) Unable to consume pending frame\r\nINFO: (external/minicap/src/minicap_33.cpp:295) Destroying virtual display\r\n'
+2023-04-23 21:41:56 | ERROR | screen_proxy.py:60 | Minicap setup up failed!
+2023-04-23 21:41:57 | INFO | test_search.py:19 | 异常处理线程正常运行中-------
+2023-04-23 21:42:02 | ERROR | screen_proxy.py:59 | 'javacap server setup timeout'
+2023-04-23 21:42:02 | ERROR | screen_proxy.py:60 | Javacap setup up failed!
+2023-04-23 21:42:05 | INFO | test_search.py:19 | 异常处理线程正常运行中-------

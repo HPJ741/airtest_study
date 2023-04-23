@@ -1,6 +1,3 @@
-airetest
+airtest
 pocoui
-pytest
-allure-pytest
-tidevice
 airtest-selenium

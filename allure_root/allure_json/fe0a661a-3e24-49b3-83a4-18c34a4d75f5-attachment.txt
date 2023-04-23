@@ -1,0 +1,63 @@
+[21:41:32][WARNING]<airtest.core.api> Device:1268b147 updated <airtest.core.android.android.Android object at 0x000001542871A978> -> <airtest.core.android.android.Android object at 0x0000015469E0EBA8>
+Exception ignored in: <function RpcObjectProxy.__del__ at 0x0000015469DDAAE8>
+Traceback (most recent call last):
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\object_proxy.py", line 114, in __del__
+    self._client__.evaluate(RpcObjectProxy(self._uri__, self._client__, action), wait_for_response=False)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\client.py", line 64, in evaluate
+    timeout=None if wait_for_response else 0.3)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\transport\http.py", line 24, in send
+    timeout=timeout)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=18632): Read timed out. (read timeout=0.3)
+Exception ignored in: <function RpcObjectProxy.__del__ at 0x0000015469DDAAE8>
+Traceback (most recent call last):
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\object_proxy.py", line 114, in __del__
+    self._client__.evaluate(RpcObjectProxy(self._uri__, self._client__, action), wait_for_response=False)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\client.py", line 64, in evaluate
+    timeout=None if wait_for_response else 0.3)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\transport\http.py", line 24, in send
+    timeout=timeout)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=18632): Read timed out. (read timeout=0.3)
+[21:41:56][ERROR]<airtest.core.android.cap_methods.screen_proxy> b''
+[21:41:56][ERROR]<airtest.core.android.cap_methods.screen_proxy> b'PID: 14292\r\nINFO: Using projection 1080x2340@1080x2340/0\r\nINFO: (external/minicap/src/minicap_33.cpp:245) Creating SurfaceComposerClient\r\nINFO: (external/minicap/src/minicap_33.cpp:248) Performing SurfaceComposerClient init check\r\nINFO: (external/minicap/src/minicap_33.cpp:259) Creating virtual display\r\nINFO: (external/minicap/src/minicap_33.cpp:265) Creating buffer queue\r\nINFO: (external/minicap/src/minicap_33.cpp:268) Setting buffer options\r\nINFO: (external/minicap/src/minicap_33.cpp:272) Creating CPU consumer\r\nINFO: (external/minicap/src/minicap_33.cpp:276) Creating frame waiter\r\nINFO: (external/minicap/src/minicap_33.cpp:280) Publishing virtual display\r\nINFO: (jni/minicap/JpgEncoder.cpp:64) Allocating 7678980 bytes for JPG encoder\r\nERROR: (external/minicap/src/minicap_33.cpp:128: errno: None) Unable to lock next buffer BAD_VALUE (-22)\r\nERROR: (jni/minicap/minicap.cpp:442: errno: None) Unable to consume pending frame\r\nINFO: (external/minicap/src/minicap_33.cpp:295) Destroying virtual display\r\n'
+[21:41:56][ERROR]<airtest.core.android.cap_methods.screen_proxy> Minicap setup up failed!
+Exception ignored in: <function RpcObjectProxy.__del__ at 0x0000015469DDAAE8>
+Traceback (most recent call last):
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\object_proxy.py", line 114, in __del__
+    self._client__.evaluate(RpcObjectProxy(self._uri__, self._client__, action), wait_for_response=False)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\client.py", line 64, in evaluate
+    timeout=None if wait_for_response else 0.3)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\transport\http.py", line 24, in send
+    timeout=timeout)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=18632): Read timed out. (read timeout=0.3)
+[21:42:02][ERROR]<airtest.core.android.cap_methods.screen_proxy> 'javacap server setup timeout'
+[21:42:02][ERROR]<airtest.core.android.cap_methods.screen_proxy> Javacap setup up failed!

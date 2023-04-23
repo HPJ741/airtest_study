@@ -1,0 +1,38 @@
+Exception ignored in: <function RpcObjectProxy.__del__ at 0x0000015469DDAAE8>
+Traceback (most recent call last):
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\object_proxy.py", line 114, in __del__
+    self._client__.evaluate(RpcObjectProxy(self._uri__, self._client__, action), wait_for_response=False)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\client.py", line 64, in evaluate
+    timeout=None if wait_for_response else 0.3)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\transport\http.py", line 24, in send
+    timeout=timeout)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=18632): Read timed out. (read timeout=0.3)
+Exception ignored in: <function RpcObjectProxy.__del__ at 0x0000015469DDAAE8>
+Traceback (most recent call last):
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\object_proxy.py", line 114, in __del__
+    self._client__.evaluate(RpcObjectProxy(self._uri__, self._client__, action), wait_for_response=False)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\client.py", line 64, in evaluate
+    timeout=None if wait_for_response else 0.3)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\hrpc\transport\http.py", line 24, in send
+    timeout=timeout)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\PycharmProjects\airtest_study\venv\lib\site-packages\requests\adapters.py", line 578, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=18632): Read timed out. (read timeout=0.3)

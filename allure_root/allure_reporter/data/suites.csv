@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Apr 23 21:41:35 CST 2023","Sun Apr 23 21:42:18 CST 2023","43669","case","test_search","Test_wangyiyun","","","test_login",""
+"passed","Sun Apr 23 21:42:18 CST 2023","Sun Apr 23 21:42:59 CST 2023","40182","case","test_search","Test_wangyiyun","","","test_search",""
